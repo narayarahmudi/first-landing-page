@@ -1,0 +1,12 @@
+<div class="card flex flex-col w-full md:w-80 bg-gray-100 px-5 py-5 rounded-2xl gap-5 hover:shadow-gray-600 hover:shadow-sm transition-all duration-200 hover:scale-[1.01] cursor-pointer">
+                    <h1 class="font-bold text-2xl">Precision Equipment</h1>
+                    <p class="text-gray-600">Modern agricultural equipment integration.Seamlessly connect and integrate advanced farming hardware into your daily operations. By synchronizing autonomous tractors, GPS-guided machinery, and drone technology into a unified system, you can eliminate manual errors, optimize field navigation, and ensure that tasks like seeding and fertilizing are executed with absolute millimeter accuracy.</p>
+                </div>
+                <div class="card flex flex-col w-full md:w-80 bg-gray-100 px-5 py-5 rounded-2xl gap-5 hover:shadow-gray-600 hover:shadow-sm transition-all duration-200 hover:scale-[1.01] cursor-pointer">
+                    <h1 class="font-bold text-2xl">Data Analytics</h1>
+                    <p class="text-gray-600">Transform complex raw field data into clear, actionable strategies with the help of artificial intelligence. The platform continuously monitors plant development, diagnoses soil health deficiencies, and runs predictive simulations to forecast seasonal yields, giving you the foresight needed to tackle agricultural challenges before they impact your bottom line.</p>
+                </div>
+                <div class="card flex flex-col w-full md:w-80 bg-gray-100 px-5 py-5 rounded-2xl gap-5 hover:shadow-gray-600 hover:shadow-sm transition-all duration-200 hover:scale-[1.01] cursor-pointer">
+                    <h1 class="font-bold text-2xl">Smart Irrigation</h1>
+                    <p class="text-gray-600">Upgrade to intelligent irrigation networks that dynamically adjust water delivery based on real-time soil moisture and hyper-local weather forecasts. This automated system ensures that every plant zone receives the exact amount of hydration it needs, eliminating water waste, reducing utility costs, and protecting crops from both drought and overwatering stress.</p>
+                </div>

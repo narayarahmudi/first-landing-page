@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+
+    <!-- Basic Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <!-- Filled Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <!-- Brand Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.cdnfonts.com/css/advanced-dot-digital-7" rel="stylesheet">
+  </head>
+
+  <body class="font-google">
+    <!-- NAVBAR START -->
+    <header class="flex justify-between items-center bg-green-700 text-white fixed w-full px-5 py-2 sm:py-3 md:py-4 z-5 ">
+        <span class="font-bold text-2xl">AgriNova</span>
+
+        <nav class="flex items-center gap-5">
+            <ul class="absolute flex justify-center items-center flex-col left-0 top-0 text-xl -translate-y-[150%] w-full h-screen bg-green-700 gap-4 transition-transform duration-200 -z-1 md:flex-row md:static md:w-auto md:h-fit md:translate-y-0 md:z-1 md:transition-none md:text-[15px]" id="menu">
+                <li class=""><a class="underline-hover" href="#home">Home</a></li>
+                <li class=""><a class="underline-hover" href="#solutions">Solutions</a></li>
+                <li class=""><a class="underline-hover" href="#technology">Technology</a></li>
+                <li class=""><a class="underline-hover" href="#products">Products</a></li>
+                <li class=""><a class="underline-hover" href="#contact">Contact</a></li>
+            </ul>
+            <button class="hidden md:block btn-primary font-bold hover:bg-green-800 border-1 border-transparent hover:border-green-900 active:bg-green-500 duration-300">Get Started</button>
+        </nav>
+
+        <i class="bx bx-menu text-2xl md:!hidden cursor-pointer" id="hamburger"></i>
+    </header>
+    <!-- NAVBAR END -->
+
+    <!-- HERO START -->
+    <section id="home" class="">
+        <div class="wrapper">
+            <div class="relative flex flex-col w-full h-dvh bg-[url('/src/assets/bg.png')] bg-cover bg-no-repeat bg-center px-5 sm:px-15">
+            <div class="absolute w-full h-full bg-black/50 top-0 left-0 z-0"></div>
+                <div class="flex flex-3 flex-col justify-center z-1">
+                    <h1 class="text-white font-bold text-3xl md:text-4xl lg:text-5xl">Smart Agriculture</h1>
+                    <h2 class="text-white font-medium text-md sm:text-xl md:text-2xl">for a Better Future</h2>
+                    
+                    <span class="text-gray-100 my-4 text-[12px] w-auto sm:w-[420px] leading-4.5 md:w-[520px] md:text-md rounded-xl py-2 mb-5">Transforming Global Agriculture by Empowering Tomorrow’s Farmers with Next-Generation Precision Technology, Actionable Data-Driven Insights, and Scalable, Sustainable Farming Solutions for Maximum Yield.</span>
+
+                    <div class="cta flex gap-5 mt-5 font-semibold text-[12px]">
+                        <button class="btn-primary sm:text-[15px] focus:ring-2 focus:ring-green-800">Explore Services</button>
+                        <button class="btn-primary sm-text-[15px] bg-[rgba(0,0,0,0.3)] border-1 hover:bg-[rgba(0,0,0,0.7)] active:bg-[rgba(0,0,0,0.3)]">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HERO END -->
+     
+    <!-- SOLUTIONS -->
+
+    <section id="solutions" class="flex flex-col w-full min-h-screen justify-center items-center px-10 py-5 sm:px-15 text-justify">
+        <div class="title flex w-full h-fit items-center justify-center items gap-5 font-bold text-green-700 mb-10">
+            <h1 class="relative font-bebas text-5xl md:text-6xl before:content-[''] before:absolute before:-left-3 before:top-0 before:h-full before:w-2 before:bg-green-700">Our Solutions</h1>
+        </div>
+
+        <div class="mb-10">
+            <div class="card-container flex flex-wrap gap-8">
+                <div class="flex flex-col flex-1 bg-green-700 text-white px-6 py-4 rounded-2xl w-fit items-center shadow-sm shadow-gray-200 transition duration-300 cursor-pointer hover:shadow-md hover:-translate-y-1 hover:shadow-gray-400">
+                    <h1 class="text-2xl font-bold mb-5">Smart Farming</h1>
+                    <p class="">By deploying an interconnected network of smart sensors and advanced monitoring tools, you can actively boost your overall crop yield and quality. This continuous surveillance tracks critical field variables in real time, allowing you to optimize growing conditions, prevent disease outbreaks, and make data-driven decisions that ensure a more abundant and secure harvest.</p>
+                </div>
+                <div class="flex flex-col flex-1 bg-green-700 text-white px-6 py-4 rounded-2xl w-fit items-center shadow-sm shadow-gray-200 transition duration-300 cursor-pointer hover:shadow-md hover:-translate-y-1 hover:shadow-gray-400">
+                    <h1 class="text-2xl font-bold mb-5">Precision Equipment</h1>
+                    <p class="">Modern agricultural equipment integration.Seamlessly connect and integrate advanced farming hardware into your daily operations. By synchronizing autonomous tractors, GPS-guided machinery, and drone technology into a unified system, you can eliminate manual errors, optimize field navigation, and ensure that tasks like seeding and fertilizing are executed with absolute millimeter accuracy.</p>
+                </div>
+                <div class="flex flex-col flex-1 bg-green-700 text-white px-6 py-4 rounded-2xl w-fit items-center shadow-sm shadow-gray-200 transition duration-300 cursor-pointer hover:shadow-md hover:-translate-y-1 hover:shadow-gray-400">
+                    <h1 class="text-2xl font-bold mb-5">Data Analytics</h1>
+                    <p class="">Transform complex raw field data into clear, actionable strategies with the help of artificial intelligence. The platform continuously monitors plant development, diagnoses soil health deficiencies, and runs predictive simulations to forecast seasonal yields, giving you the foresight needed to tackle agricultural challenges before they impact your bottom line.</p>
+                </div>
+                <div class="flex flex-col flex-1 bg-green-700 text-white px-6 py-4 rounded-2xl w-fit items-center shadow-sm shadow-gray-200 transition duration-300 cursor-pointer hover:shadow-md hover:-translate-y-1 hover:shadow-gray-400">
+                    <h1 class="text-2xl font-bold mb-5">Smart Irrigation</h1>
+                    <p class="">Upgrade to intelligent irrigation networks that dynamically adjust water delivery based on real-time soil moisture and hyper-local weather forecasts. This automated system ensures that every plant zone receives the exact amount of hydration it needs, eliminating water waste, reducing utility costs, and protecting crops from both drought and overwatering stress.</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <button class="btn-primary bg-green-700 hover:bg-green-800 font-bold px-8 py-2">Learn More</button>
+    </section>
+
+    <!-- SOLUTIONS END -->
+
+    <!-- WHY CHOOSE US -->
+    <section id="technology" class="flex flex-col items-center px-10 py-10 lg:py-0 md:px-15 gap-10 min-h-screen justify-center select-none">
+        <div class="flex flex-col justify-center items-center title">
+            <h1 class="font-google text-green-700 tracking-[0.2em] text-[11px] sm:text-xl">W h y C h o o s e U s</h1>
+            <h1 class="font-google text-gray-800 text-4xl sm:text-5xl md:text-6xl font-extrabold">Why Choose Us</h1>
+        </div>
+
+        <div class="card-container flex flex-wrap justify-center gap-8">
+            <div class="card flex flex-col gap-5 flex-1">
+                <div class="title flex items-center justify-between flex-1">
+                    <div class="icon flex items-center gap-2 font-bold text-3xl text-green-700 border-b-1">
+                        <i class="bx bx-thumb-up"></i>
+                        <span>Sustainable</span>
+                    </div>
+                </div>
+
+                <div class="description text-justify">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem in facere vitae perspiciatis sed pariatur? Totam nobis omnis temporibus expedita impedit illum iure similique optio, numquam, a modi nulla alias.</p>
+                </div>
+            </div>
+            <div class="card flex flex-col gap-5 flex-1 xl:translate-y-20">
+                <div class="title flex items-center justify-between flex-1">
+                    <div class="icon flex items-center gap-2 font-bold text-3xl text-green-700 border-b-1">
+                        <i class="bx bx-core"></i>
+                        <span class="lg:text-4xl">Smart Technology</span>
+                    </div>
+                </div>
+
+                <div class="description flex-1 text-justify">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem in facere vitae perspiciatis sed pariatur? Totam nobis omnis temporibus expedita impedit illum iure similique optio, numquam, a modi nulla alias.</p>
+                </div>
+            </div>
+            <div class="card flex flex-col gap-5 flex-1">
+                <div class="title flex items-center justify-between flex-1">
+                    <div class="icon flex items-center gap-2 font-bold text-3xl text-green-700 border-b-1">
+                        <i class="bx bx-user"></i>
+                        <span class="">Experienced Team</span>
+                    </div>
+                </div>
+
+                <div class="description flex-1 text-justify">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem in facere vitae perspiciatis sed pariatur? Totam nobis omnis temporibus expedita impedit illum iure similique optio, numquam, a modi nulla alias.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- WHY CHOOSE US END -->
+
+    <!-- CTA -->
+
+    <section class="flex items-center justify-center px-10 min-h-screen items-center my-20 sm:my-10 lg:my-0">
+        <div class="flex flex-col-reverse bg-gray-100 rounded-2xl px-5 py-5 gap-8 md:flex-row md:py-0 md:px-0 md:gap-0">
+            <div class="cta-content flex flex-col flex-1 w-full md:py-10 md:px-7">
+                <span class="text-2xl md:text-3xl font-bold">Ready to Build</span>
+                <span class="text-4xl md:text-5xl font-bold text-green-700 mb-10">Smart Agriculture?</span>
+                <p class="mb-15">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatibus perspiciatis repellat illum libero, eum corrupti tempore reprehenderit accusantium ea quaerat itaque dolorem quis laboriosam.</p>
+                <div class="button flex justify-center">
+                    <button class="btn-primary">Get Started</button>
+                </div>
+            </div>
+            <div class="cta-img flex flex-1 rounded-2xl overflow-hidden">
+                <img src="/src/assets/cta-img.jpg " alt="" class="transition duration-300 hover:filter hover:brightness-75 hover:scale-[1.05]">
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA END -->
+
+    <footer class="bg-green-700 text-white w-full select-none">
+        <div class="flex flex-col px-10 py-15 gap-10 pb-0">
+            <div class="logo flex flex-wrap justify-between gap-5">
+                <span class="font-bold text-2xl md:text-5xl">AgriNova</span>
+                <div id="contact" class="contact flex flex-col">
+                    <span class="phone">+62 1234 5678 910</span>
+                    <span class="email">agrinova@example.com</span>
+                </div>
+            </div>
+
+            <div class="information flex flex-col md:flex-row gap-7 md:gap-30">
+                <div class="about flex flex-col flex-1">
+                    <span class="font-bold text-xl">About us</span>
+                    <span class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque culpa unde, consequuntur consectetur quos perspiciatis!</span>
+                </div>
+    
+                <div class="adress flex flex-col flex-1">
+                    <span class="font-bold text-xl">Address</span>
+                    <span class="text-justify">Somewhere you wouldn't know about it</span>
+                </div>
+    
+                <div class="social-media flex flex-col flex-1">
+                    <span class="font-bold text-xl">Follow us</span>
+                    <span>Facebook</span>
+                    <span>Instagram</span>
+                    <span>TikTok</span>
+                </div>
+                <div id="products" class="product flex flex-col flex-1">
+                    <span class="font-bold text-xl">Products</span>
+                    <span>Fertilizer</span>
+                    <span>Crop Protection</span>
+                    <span>Agri-machinery</span>
+                    <span>Fresh Produce</span>
+                </div>
+            </div>
+
+
+            <div" class="copyright flex justify-between text-[10px]">
+                <span>&copy;AgriNova 2026, All Rights Reserved</span>
+                <div class="flex gap-5   class="text-justify"">
+                    <span>Privacy</span>
+                    <span>Terms</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

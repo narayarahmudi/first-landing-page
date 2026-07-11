@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@layer components {
+    .btn-primary {
+        @apply text-white bg-green-500 px-5 py-1 rounded-[10px] cursor-pointer transition duration-150 hover:bg-green-700 active:bg-green-500
+    }
+
+    .underline-hover {
+        @apply relative before:content-[''] before:w-0 before:absolute before:left-0 before:-bottom-1 before:bg-white before:h-0.5 before:transition-all before:duration-200 hover:before:w-full
+    }
+
+    :root {
+        @apply scrollbar-none
+    }
+}
+
+@layer base {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@theme {
+    --font-bebas: "Bebas Neue", sans-serif;
+    --font-google: "Google Sans",sans-serif
+}
